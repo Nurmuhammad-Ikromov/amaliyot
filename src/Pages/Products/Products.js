@@ -62,7 +62,7 @@ export const Products = () => {
                                     color: "#fff"
 								}}>
 								{' '}
-								<img width={270} src={e.image} />
+								<img alt='this person' width={270} src={e.image} />
 								<h2>{e.title}</h2>
 								<p>{e.price}</p>
 								<p>{e.category}</p>
@@ -77,7 +77,7 @@ export const Products = () => {
                                     color: "#fff"
 								}}>
 								{' '}
-								<img width={270} height={300} src={e.image} />
+								<img alt='this personal ' width={270} height={300} src={e.image} />
 								<h3>{e.title}</h3>
 								<p>{e.price}</p>
 								<p>{e.category}</p>
